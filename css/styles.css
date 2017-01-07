@@ -1,0 +1,73 @@
+body {
+  position: relative;
+  overflow-y: scroll;
+  font-size: 1.75rem;
+  color: #555;
+}
+
+/*.container {
+  max-width: 1000px;
+}
+*/
+
+.row > div, 
+.row > div a {
+  margin-bottom: 20px;
+}
+.jumbotron {
+  margin-top: 50px;
+}
+
+.portfolio-image {
+  height: 200px;
+  width: 200px;
+}
+
+hr {
+  border: 2px solid #ccc;
+}
+
+.fa-linkedin,
+.fa-facebook,
+.fa-google-plus,
+.fa-github {
+  background: #ddd;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 30px;
+}
+
+.fa-linkedin:hover,
+.fa-google-plus:hover,
+.fa-github:hover,
+.fa-facebook:hover {
+  opacity: 0.8;
+}
+
+.social {
+  font-size: 50px;
+}
+
+.fa-linkedin {
+  color: #fff;
+  background: #0099ff;
+}
+
+.fa-facebook {
+  background: #1a53ff;
+  color: #fff;
+}
+
+.fa-github {
+  background: #000;
+  color: #fff;
+}
+
+.fa-google-plus {
+  background: #ff1a1a;
+  color: #fff;
+}
